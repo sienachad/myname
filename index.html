@@ -1,53 +1,76 @@
-<html>
-    <head>
-        <title>
-            HTML Page with a Table
-        </title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <center>
-        <table border="0" width="80%">
-            <tr>
-                <td>
-                    <center>
-                    <table border="0">
-                        <tr>
-                            <td width="20%">
-                               <b> <center>History</center></b>
-                            </td>
-                            <td width="20%">
-                               <b><center>About Us</center></b> 
-                            </td>
-                            <td width="20%">
-                               <b><center>Merch</center></b> 
-                            </td>
-                            <td width="20%">
-                                <b><center><a href="wbball.html">Women's Basketball</a></center></b>
-                            </td>
-                            <td width="20%">
-                                <b><center><a href="showcase.html">Men's Basketball</a></center></b>
-                            </td>
-                        </tr>
-                    </table>
-                    </center>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                   <p class="class1">Everything You NEED to Know as a ZAG Fan!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page with a Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adding some CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .header-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .header-table td {
+            padding: 10px;
+            text-align: center;
+        }
+        .header-table a {
+            color: white;
+            text-decoration: none;
+        }
+        .header-table a:hover {
+            color: red;
+        }
+        .content {
+            text-align: center;
+            margin: 20px;
+        }
+        .class1 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .class2 {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
 
-                    <p class="class2"> Welcome to the official Gonzaga Basketball website, 
-                        your ultimate destination for everything related to the Bulldogs on the court! 
-                        Here, you'll find the latest news, scores, and highlights from both our men's and 
-                        women's basketball teams, who are known for their passion, talent, and relentless 
-                        pursuit of excellence. Whether you're cheering on the Zags at the McCarthey Athletic 
-                        Center or following the action from afar, we’ve got you covered with in-depth coverage, 
-                        player features, and exclusive content. Join us as we continue to build on our proud 
-                        legacy of competitive success and inspiring future generations of athletes! Go Zags! </p>
-                </td>
-            </tr>
-        </table>
-    </center>
-    </body>
+    <table class="header-table">
+        <tr>
+            <td><strong>History</strong></td>
+            <td><strong>About Us</strong></td>
+            <td><strong>Merch</strong></td>
+            <td><a href="wbball.html"><strong>Women's Basketball</strong></a></td>
+            <td><a href="showcase.html"><strong>Men's Basketball</strong></a></td>
+        </tr>
+    </table>
+
+    <div class="content">
+        <p class="class1">Everything You NEED to Know as a ZAG Fan!</p>
+
+        <p class="class2">Welcome to the official Gonzaga Basketball website, 
+            your ultimate destination for everything related to the Bulldogs on the 
+            court! Here, you'll find the latest news, scores, and highlights from both our 
+            men's and women's basketball teams, who are known for their passion, talent, and 
+            relentless pursuit of excellence. Whether you're cheering on the Zags at the 
+            McCarthey Athletic Center or following the action from afar, we’ve got you covered 
+            with in-depth coverage, player features, and exclusive content. Join us as we 
+            continue to build on our proud legacy of competitive success and inspiring future 
+            generations of athletes! Go Zags!</p>
+    </div>
+
+</body>
 </html>

@@ -1,41 +1,64 @@
-<html>
-    <head>
-        <title>My Web Page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adding some CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        h1 {
+            color: white;
+            font-size: 3em;
+            text-align: center;
+        }
+        .red {
+            color: red;
+        }
+        .navy {
+            color: navy;
+        }
+        .content {
+            font-size: 16px;
+            text-align: center;
+            margin: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table td {
+            padding: 10px;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span class="white">Gonzaga</span><br>
+        <span class="red">Men's</span><br>
+        <span class="navy">Basketball</span>
+    </h1>
     
-
-        <b><font color="white" size="30">Gonzaga</font>
-            <br><b><font color="red" size="30">Men's</font></b></b>
-        </b> <br><b><font color="navy" size="30">Basketball</font></b><br>
-       <font color="white" size="3">The Gonzaga Men's Basketball team has been firing on 
-        all cylinders this season, once again proving why they’re a powerhouse in college 
-        basketball. With a blend of experienced veterans and rising stars, the Zags have 
-        dominated both in the West Coast Conference and nationally, consistently ranking among 
-        the top teams. Their high-paced offense, solid defense, and deep roster have them 
-        positioned for another strong postseason run. As the season unfolds, Gonzaga is 
-        looking to add to its impressive list of achievements, continuing its tradition of 
-        excellence on the national stage.
-       </font>
-       <img src="zagabball.webp">
-       <p><a href="index.html">Home Page</a></p>
-       <p><a href="wbball.html">Check Out the Women's Team!</a> </p> 
-       <table border=1>
-        <tr>
-            <td>
-                A
-            </td>
-            <td>
-                B
-            </td>
-            <tr>
-                <td>
-                    C
-                </td>
-                <td>
-                    D
-                </td>
-            </tr>
-       </table>
-    </body>
-</html>
+    <div class="content">
+        <p>The Gonzaga Men's Basketball
